@@ -1,6 +1,56 @@
 .App {
-  text-align: center;
 }
+
+#cat4{
+
+    padding-right:300px
+   
+}
+#copy {
+    
+}
+
+ul {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+    font-weight:bold;
+    background-color:azure;
+    padding:20px;
+    margin-left: 50px;
+    font-size:24px;
+    
+}
+
+#catinfo {
+    max-width:500px;
+    float:left;
+    font-family:'Comic Sans MS', sans-serif;
+    margin: 25px;
+}
+
+#cathead {
+    margin: 25px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+ul :hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+
+.App2 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .App-logo {
   height: 40vmin;
